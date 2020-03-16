@@ -24,12 +24,12 @@ if [ $# -ne 2 ];
     do
         
         mkdir "parser_output/$i"
-        cp "parser_input/dblp.dtd" "parser_output/$i"
+        cp $2 "parser_output/$i"
         echo "parser_output/$i directory has been created"
         echo ""
       
     done
 
-    python3 parser.py parser_input/$1 parser_input/$2
+    python3 parser.py $1 $2
 
 fi
