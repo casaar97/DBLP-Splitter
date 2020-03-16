@@ -33,5 +33,3 @@ if [ $# -ne 2 ];
     python3 parser.py parser_input/$1 parser_input/$2
 
 fi
-
-exit 0
