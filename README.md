@@ -3,7 +3,7 @@
 REQUIREMENTS
 
 - Python3
-- lxml (Python3)
+- lxml (Python3) -> https://lxml.de/installation.html
 
 GUIDE
 
